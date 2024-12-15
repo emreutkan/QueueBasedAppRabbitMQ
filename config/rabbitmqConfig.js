@@ -1,6 +1,6 @@
 const amqp = require('amqplib');
 
-const RABBITMQ_URL = 'amqp://localhost'; // local
+const RABBITMQ_URL = 'amqp://localhost';
 
 async function createConnection() {
     try {
